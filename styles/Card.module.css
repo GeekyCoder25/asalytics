@@ -1,0 +1,40 @@
+.card {
+	padding: 20px;
+	border: 1px solid #b7becc;
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0.625rem;
+    margin: auto;
+}
+.card p {
+    font-size: 1.5rem;
+    font-weight: 600;
+	text-align: center;
+}
+.card button:hover {
+	background: transparent;
+	color: #000000;
+}
+.card button {
+	color: #ffffff;
+	padding: 0.625rem;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	transition: all 0.5s ease;
+}
+.card .available:hover {
+	border: 1px solid #6fd791;
+}
+.card .available {
+	background: #6fd791;
+}
+.card .unavailable:hover {
+	border: 1px solid #bc3131;
+}
+.card .unavailable {
+	background: #bc3131;
+}
